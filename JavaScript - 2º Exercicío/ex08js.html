@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+//8. Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+        
+        var num1 =  parseInt (prompt ("Digite o valor do primeiro número"));
+        var num2 = parseInt (prompt ("Digite o valor do segundo número"));
+        var num3 = parseInt (prompt ("Digite o valor do terceiro número"));
+        var num4 = parseInt (prompt ("Digite o valor do quarto número"));
+
+       
+        var conta = num1 + num2 + num3 + num4;
+        var resultado = (num1 + num2 + num3 + num4 ) / 4; //entre () faz primeiro a soma dps a divisão (mais seguro de dar certo)
+        
+        if (num1 > 11 && num1 < 0) {
+           document.write ("erro", "<br>");
+        }
+        
+         if (num2 > 11 && num2 < 0) {
+           document.write ("erro", "<br>");
+        }
+        if (num3 > 11 && num3 < 0) {
+           document.write ("erro", "<br>");
+        }
+       if (num4 > 11 && num4 < 0) {
+           document.write ("erro", "<br>");
+        }
+
+        else if (resultado > 5) {
+            
+           document.write ("Parabéns, você passou no teste ", + resultado, "<br>");
+        }
+        else if (resultado < 4.9) {
+           document.write ("Você não passou no teste, refazer a prova ", + resultado, "<br>");
+        }
+       
+
+
+
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
